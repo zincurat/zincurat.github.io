@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/asts/img/favicon.png" />
+    <title>Tim Buiadzhi</title>
+    <meta name="description" content="Timur Buiadzhi is a seaman from Ukraine" />
+    <link rel="stylesheet" href="./asts/css/stl.css">
+  </head>
+   
+  <body>
+        <header>
+			<nav>
+    
+			<a href="/" class="current">⚓ Home</a>|
+    
+			<a href="resume" >👨 Resume</a>|
+		
+			<a href="contact" >✉️ Contact</a>    
+  </nav>
+  
+</div>
+
+    </header>
+	   
+   <main>
+
+      <p class="medium left">Hi! 👋 I’m Timur, 20 years old guy from Ukraine 🇺🇦. I'm studying at National University "Odessa Maritime Academy" at the navigation faculty.<br>
+	  Rank: Deck Cadet. </p>
+	   
+	   
+	   
+	   <footer>
+	    <hr>	
+		 <p>All work licensed under <b>CC BY-SA 4.0</b> unless otherwise stated.<br>
+	  </footer>
+	<img src="./asts/img/favicon.png">
+  </body>
+</html>

@@ -1,0 +1,149 @@
+/* Global colour variables */
+ :root {
+    --accent: #0D47A1;
+    --accent-light: #c7e0f2;
+    --bg: #eeeff1;
+    --accent-bg: #e6e6e6;
+    --text: #212121;
+    --underline: #90CAF9;
+    --meta: #666;
+    --border: lightgrey;
+    --code: #E3F2FD;
+    --input: white;
+
+    /* Notice colours */
+    --dark-blue: #0D47A1;
+    --light-blue: #E3F2FD;
+    --dark-red: #b71c1c;
+    --light-red: #ffebee;
+ }
+
+/****** Main body element ******/
+
+* {
+  font-family: apple-system, BlinkMacSystemFont, avenir next, avenir, "Nimbus Sans L", roboto, noto, segoe ui, arial, helvetica, helvetica neue, sans-serif
+}
+
+body {
+    color: var(--text);
+    background: var(--bg);
+    font-size: 1rem;
+    max-width: 45rem;
+    margin: 0 auto;
+    padding: 3px;
+    line-height: 1.5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/****** Format the nav bar ******/
+nav {
+  font-size: 1rem;
+  text-align: left;
+  white-space: nowrap;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  line-height: 2;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+
+nav a {
+  border: 0px solid var(--border);
+  border-radius: 500px;
+  margin: 0 .2rem;
+  color: var(--text) !important;
+  display: inline-block;
+  padding: .1rem 1rem;
+  text-decoration: none;
+  transition: .4s;
+}
+nav a:hover,
+nav a.current {
+  color: var(--accent) !important;
+  background: var(--accent-light);
+  border-color: var(--accent);
+}
+
+nav a.current:hover {
+  text-decoration: none;
+}
+
+
+/****** Typography elements ******/
+
+.page-title,
+main h1 {
+  line-height: 1.2;
+
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2, h3 {
+  margin-top: 1.8rem;
+}
+
+medium,
+.medium {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+a,
+a:visited {
+  color: var(--accent);
+  text-decoration-thickness: .1rem;
+  text-decoration-color: var(--underline);
+  transition: .4s;
+}
+
+a:hover {
+  text-decoration-color: var(--accent);
+}
+
+main img {
+  height: auto;
+  max-width: 18%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.no-shadow {
+  box-shadow: none !important;
+}
+
+var {
+	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
+/****** Misc content elemtents ******/
+
+hr {
+  color: var(--border);
+  border-top: 1px;
+  margin: 2rem 0;
+}
+
+
+
+/****** Format the Footer ******/
+
+footer {
+    margin: 3rem auto 0;
+    padding: 0.5rem 0 0;
+    text-align: center;
+    font-size: .9rem;
+}
+
+
