@@ -21,14 +21,14 @@
 /****** Main body element ******/
 
 * {
-  font-family: apple-system, BlinkMacSystemFont, avenir next, avenir, "Nimbus Sans L", roboto, noto, segoe ui, arial, helvetica, helvetica neue, sans-serif
+  font-family: apple-system, BlinkMacSystemFont, avenir next, avenir, "Nimbus Sans L", roboto, noto, segoe ui, arial, helvetica, helvetica neue, sans-serif, 'Open Sans Condensed', sans-serif;
 }
 
 body {
     color: var(--text);
     background: var(--bg);
-    font-size: 1rem;
-    max-width: 45rem;
+    font-size: 1.2rem;
+    max-width: 60rem;
     margin: 0 auto;
     padding: 3px;
     line-height: 1.5;
@@ -46,20 +46,20 @@ nav {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   line-height: 2;
-  padding: 1rem 0;
-  border-bottom: 1px solid var(--border);
+  padding: 2rem 0;
 }
 
 
 nav a {
   border: 0px solid var(--border);
-  border-radius: 500px;
+  border-radius: 1000px;
   margin: 0 .2rem;
   color: var(--text) !important;
   display: inline-block;
-  padding: .1rem 1rem;
+  padding: .4rem 1rem;
   text-decoration: none;
   transition: .4s;
+  text-align: center;
 }
 nav a:hover,
 nav a.current {
@@ -82,12 +82,14 @@ main h1 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 h2, h3 {
+  font-size: 1.4rem;
   margin-top: 1.8rem;
 }
+
 
 medium,
 .medium {
@@ -98,7 +100,14 @@ medium,
 .center {
   text-align: center;
 }
+.des{
+  font-size: 1rem
+}
 
+.pts {
+  font-size: 0.75rem;
+  text-align: center;
+}
 a,
 a:visited {
   color: var(--accent);
@@ -113,10 +122,11 @@ a:hover {
 
 main img {
   height: auto;
-  max-width: 18%;
+  min-width: 150px;
+  max-width: 35%;
   display: block;
   margin: 0 auto;
-  border-radius: 5px;
+  border-radius: 500px;
 }
 
 .no-shadow {
@@ -124,8 +134,10 @@ main img {
 }
 
 var {
-	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace, 'Open Sans Condensed', sans-serif;;
 }
+/**Fonts*/
+.opensans { font-family: Open Sans Condensed; }
 
 /****** Misc content elemtents ******/
 
@@ -135,6 +147,23 @@ hr {
   margin: 2rem 0;
 }
 
+
+/** Table**/
+table { 
+  border-collapse: collapse; 
+} 
+
+th, 
+td { 
+  border: 1px solid rgb(255, 255, 255); 
+} 
+
+table#table1 { 
+  table-layout: auto; 
+  width: auto; 
+} 
+
+/*** colors od Awesome **/
 
 
 /****** Format the Footer ******/
