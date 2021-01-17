@@ -149,19 +149,20 @@ hr {
 
 
 /** Table**/
-table { 
-  border-collapse: collapse; 
-} 
+table {
+  border-collapse: collapse;
+}
 
-th, 
-td { 
-  border: 1px solid rgb(255, 255, 255); 
-} 
+th,
+td {
+  border: 1px solid;
+  border-color: var(--bg);
+}
 
-table#table1 { 
-  table-layout: auto; 
-  width: auto; 
-} 
+table#table1 {
+  table-layout: auto;
+  width: auto;
+}
 
 /*** colors od Awesome **/
 
@@ -174,5 +175,3 @@ footer {
     text-align: center;
     font-size: .9rem;
 }
-
-
